@@ -1,0 +1,100 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(90deg, #795914, #c58320);
+    position: relative;
+}
+.container{
+    color: rgb(255, 245, 245);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.casa{
+    width: 100px;
+    height: 100px;
+    border: solid 2px rgb(255, 245, 245);
+    font-size: 40px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow:2px 3px 2px #3a3938;
+    cursor: pointer;
+}
+.game{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.selectplayer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    color: rgb(255, 245, 245);
+    text-shadow:2px 3px 2px #3a3938;
+
+}
+.player1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 100px;
+    height: 100px;
+    border: solid 2px rgb(255, 245, 245);
+    cursor: pointer;
+}
+.player2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 100px;
+    height: 100px;
+    border: solid 2px rgb(255, 245, 245);
+    cursor: pointer;
+}
+.pop{
+    display: none;
+}
+.pop-up{
+    width: 800px;
+    height: 200px;
+    font-size: 42px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px #fff;
+    position: absolute;
+    top: 35%;
+   left: 20%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+ @media (max-width: 600px)
+  {
+    body{
+        height: 100%;
+    }
+    .pop-up{
+        width: 800px;
+        height: 200px;
+        font-size: 22px;
+        font-weight: bolder;
+        text-shadow: 2px 2px 2px #fff;
+        position: absolute;
+        top: 35%;
+       left: -10%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+  }

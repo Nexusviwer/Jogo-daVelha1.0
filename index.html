@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da velha</title>
+</head>
+<body>
+    <div class="container">
+        <div class="game">
+            <div class="line1">
+                <div id="1" onclick="passaid(this.id)" class="casa"></div>
+                <div id="2" onclick="passaid(this.id)" class="casa"></div>
+                <div id="3" onclick="passaid(this.id)" class="casa"></div>
+            </div>
+            <div class="line2">
+                <div id="4" onclick="passaid(this.id)" class="casa"></div>
+                <div id="5" onclick="passaid(this.id)" class="casa"></div>
+                <div id="6" onclick="passaid(this.id)" class="casa"></div>
+            </div>
+            <div class="line3">
+                <div id="7" onclick="passaid(this.id)" class="casa"></div>
+                <div id="8" onclick="passaid(this.id)" class="casa"></div>
+                <div id="9" onclick="passaid(this.id)" class="casa"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="selectplayer">
+        <div id="X" onclick="passplayer(this.id)" class="player1">X</div>
+        <div id="O" onclick="passplayer(this.id)" class="player2">O</div>
+    </div>
+    <div id="pop" class="pop"></div>
+    <script src="app.js"></script>
+</body>
+</html>
