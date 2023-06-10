@@ -2,7 +2,7 @@ var objclickadoplayer1 = []
 var objclickadoplayer2 = []
 var player = ""
 
-var iterador = 1
+
 
 
 
@@ -29,9 +29,7 @@ function verificaplayer(id){
     
     
 }
-function alternaplayer(){
-    play
-}
+
 
 
 function verificavitoria(){
